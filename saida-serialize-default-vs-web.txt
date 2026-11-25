@@ -1,0 +1,4 @@
+JsonSerializer.Serialize(book)
+{"Title":"Clean Code","Price":89.90}
+JsonSerializer.Serialize(book, JsonSerializerOptions.Web)
+{"title":"Clean Code","price":89.90}

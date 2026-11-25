@@ -1,0 +1,7 @@
+curl -i -X POST http://localhost:5155/books -H "Content-Type: application/json" -d '{"title":"Refactoring","price":99.50}'
+HTTP/1.1 201 Created
+Content-Type: application/json; charset=utf-8
+Location: /books/3
+
+{"title":"Refactoring","price":99.50}
+

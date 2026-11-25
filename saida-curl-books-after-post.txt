@@ -1,0 +1,2 @@
+curl http://localhost:5155/books
+[{"title":"Clean Code","price":89.90},{"title":"The Pragmatic Programmer","price":120.00},{"title":"Refactoring","price":99.50}]
